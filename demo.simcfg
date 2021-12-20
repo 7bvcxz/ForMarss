@@ -1,0 +1,9 @@
+-logfile demo.log
+#-run
+-machine single_core
+-corefreq 4G
+-stats demo.yml
+#-kill-after-run -quiet
+-dramsim-device-ini-file ini/DDR3_micron_8M_8B_x16_sg15.ini
+-dramsim-system-ini-file system.ini
+-dramsim-results-dir-name demo_dramsim
